@@ -3,7 +3,7 @@ class MoviesController < ProtectedController
 
   # GET /movies
   def index
-    @movies = Movie.all
+    @movies = current_user.movies.all
 
     render json: @movies
   end
@@ -41,7 +41,7 @@ class MoviesController < ProtectedController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_movie
-      @movie = Movie.find(params[:id])
+      @movie = current_user.movie.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
