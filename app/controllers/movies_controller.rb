@@ -41,7 +41,7 @@ class MoviesController < ProtectedController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_movie
-      @movie = current_user.movie.find(params[:id])
+      @movie = current_user.movies.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
