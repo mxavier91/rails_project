@@ -10,7 +10,7 @@ class MoviesController < ProtectedController
 
   # GET /movies/1
   def show
-    render json: @movie
+    render json: Movie.find(params[:id])
   end
 
   # POST /movies
