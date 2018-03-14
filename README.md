@@ -1,16 +1,24 @@
-# rails_project
+<h1>Back-End Development</h1>
 
-First Day Working on Back End
+This is my first time working on a Full-Stack Web App, and my second web app project while attend General Assembly.
 
-My first day I started working on the back end was also the first day of project work time. I started the day by just focusing on planning. I spoke with some classmates and
-instructors about my ERDs and how I should tackle this project. I was a little uneasy by Ruby and Ruby on Rails, so I looked back at alot of my notes, and lessons that I had on Ruby and Ruby on Rails. After a couple hours of planning, I decided it was time to get to work.
+Most important this is the first time that I'm creating an app from my own idea. There were a few ideas that I add for my Full-Stack web app, but the one that stuck with me the most was a movie app. I was hoping that this app would allow user to at least store movies that they have already watched.
 
-Day 2
+<h2>Scope:</h2>
+1. Design and implement API
+2. Design and implement client side
+3. Deploy app
+4. <a herf="https://mxavier91.github.io/front-end-rails_project/">Client</a>
+5. <a herf="https://github.com/mxavier91/front-end-rails_project">Client Repo</a>
 
-On the second day, I actually started to write code. I decided that the first thing I was going to focus on making a one to many relationship. This relationship would be Users has_many Movies, and Movies belong_to Users. I created my table by using scaffold. The table was called Movies, with colunms for ID, Title, Director, and Actor. I wanted the user to have to sign in before being able to interact with the site, so I had my MovieController inherit a ProtectdController. I also played around with some of the code to make it so the User signed in has ownership of anything created, deleted or updated.
 
-Day 3
+<h2>Technologies Used</h2>
+1. Ruby on Rails
+2. Heroku
 
-Day 3 I focused on testing my scripts. I went into the terminal and tested all of my Authorization scripts, and my CRUD scripts. Once those successfully went through, I went straight to the back end.
+<h2>ERD</h2>
 
 ERD-https://imgur.com/KhUDULV
+
+<h2>Final Thoughts</h2>
+After completing the project, I satisfied with it, but not completely. In the future I want to do more work with Ruby on Rails, in order to make a more detailed API, that allows the user to do more.
